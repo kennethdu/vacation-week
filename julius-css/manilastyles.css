@@ -1,0 +1,147 @@
+#fortsantiago{
+  float: right;
+  height: 200px;
+  width: 300px;
+  margin-left:15px;
+}
+#fortsantiago:hover {
+  float: right;
+  height: 200px;
+  width: 300px;
+  margin-left:15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+#manly {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+}
+
+#manly:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+}
+#operahouse {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+
+}
+
+#operahouse:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color:blue;
+  font-family: 'Spicy Rice';font-size: 22px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: yellow;
+}
+
+.topnav a.active {
+  background-color:red;
+  color: yellow;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+h3 {
+  color: #663300;
+  font-family:'Text Me One';font-size: 60px;
+
+
+}
+.image-size {
+  width: 300px;
+  height: 200px;
+
+}
+h2 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7rem;
+
+}
+
+#paragraph1{
+  font-family: 'Text Me One', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+#paragraph2{
+  font-family: 'Text Me One', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+#paragraph3{
+  font-family: 'Text Me One', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+#jumbotron1 {
+  background-image: url(../img/bricks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbotron3 {
+  background-image: url(../img/porto-background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#jumbotron2 {
+  background-image: url(../img/porto-background3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+body {
+  background-color: #ffe6cc;
+}
+.mySlides {
+  height: 80%;
+  width: 100%;
+}
+.checked {
+    color: orange;
+}
