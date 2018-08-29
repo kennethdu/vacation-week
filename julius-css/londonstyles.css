@@ -50,7 +50,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: blue;
+  background-color: white;
   font-family: 'Kavoon';font-size: 22px;
 }
 
@@ -65,13 +65,13 @@
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: red;
+  background-color:red;
+  color: black;
 }
 
 .topnav a.active {
-  background-color: white;
-  color: red;
+  background-color: red;
+  color: white;
 }
 .topnav input[type=text] {
     float: right;

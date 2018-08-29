@@ -13,14 +13,14 @@
   transform: scale(1.3);
 
 }
-#manly {
+#oceanpark {
   height: 200px;
   width: 300px;
   float: right;
   margin-left: 15px;
 }
 
-#manly:hover{
+#oceanpark:hover{
   height: 200px;
   width: 300px;
   float: right;
@@ -28,19 +28,19 @@
   border: solid black;
   transform: scale(1.3);
 }
-#operahouse {
+#manila-cathedral {
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
 
 }
 
-#operahouse:hover{
+#manila-cathedral:hover{
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
   border: solid black;
   transform: scale(1.3);
 
@@ -51,7 +51,7 @@
 .topnav {
   overflow: hidden;
   background-color:blue;
-  font-family: 'Spicy Rice';font-size: 22px;
+  font-family: 'Yatra One';font-size: 22px;
 }
 
 .topnav a {
@@ -82,8 +82,8 @@
     font-size: 17px;
 }
 h3 {
-  color: #663300;
-  font-family:'Text Me One';font-size: 60px;
+  color: yellow;
+  font-family:'Ultra';font-size: 60px;
 
 
 }
@@ -101,20 +101,20 @@ h2 {
 }
 
 #paragraph1{
-  font-family: 'Text Me One', cursive, sans-serif;
+  font-family: 'Ultra', cursive, sans-serif;
   color: black;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px black;
 
 }
 #paragraph2{
-  font-family: 'Text Me One', cursive, sans-serif;
+  font-family: 'Ultra', cursive, sans-serif;
   color: black;
   text-shadow: 1px 1px white;
 }
 #paragraph3{
-  font-family: 'Text Me One', cursive, sans-serif;
+  font-family: 'Ultra', cursive, sans-serif;
   color: black;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px black;
 }
 
 #jumbotron1 {
@@ -124,12 +124,12 @@ h2 {
 }
 
 #jumbotron3 {
-  background-image: url(../img/porto-background2.jpg);
+  background-image: url(../img/manilabay.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #jumbotron2 {
-  background-image: url(../img/porto-background3.jpg);
+  background-image: url(../img/summerbeach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
