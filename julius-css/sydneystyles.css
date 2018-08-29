@@ -1,0 +1,147 @@
+#harbour-bridge{
+  float: right;
+  height: 200px;
+  width: 300px;
+  margin-left:15px;
+}
+#harbour-bridge:hover {
+  float: right;
+  height: 200px;
+  width: 300px;
+  margin-left:15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+#manly {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+}
+
+#manly:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+}
+#operahouse {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+
+}
+
+#operahouse:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Permanent Marker';font-size: 22px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: skyblue;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: skyblue;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+h3 {
+  color: #d9b38c;
+  font-family:'Margarine';font-size: 60px;
+
+
+}
+.image-size {
+  width: 300px;
+  height: 200px;
+
+}
+h2 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7rem;
+
+}
+
+#paragraph1{
+  font-family: 'Margarine', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+#paragraph2{
+  font-family: 'Margarine', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+#paragraph3{
+  font-family: 'Margarine', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+#jumbotron1 {
+  background-image: url(../img/nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbotron3 {
+  background-image: url(../img/mountains.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#jumbotron2 {
+  background-image: url(../img/paint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+body {
+  background-color: #e6fff7;
+}
+.mySlides {
+  height: 80%;
+  width: 100%;
+}
+.checked {
+    color: orange;
+}

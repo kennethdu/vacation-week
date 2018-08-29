@@ -108,7 +108,7 @@ h2 {
 }
 #paragraph2{
   font-family: 'Calligraffitti', cursive, sans-serif;
-  color: #e6e6e6;
+  color: black;
   text-shadow: 1px 1px black;
 }
 #paragraph3{
@@ -118,25 +118,25 @@ h2 {
 }
 
 #jumbotron1 {
-  background-image: url(../img/london-background1.jpg);
+  background-image: url(../img/summer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#jumbotron2 {
-  background-image: url(../img/london-background2.jpg);
+#jumbotron3 {
+  background-image: url(../img/fall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-#jumbotron3 {
-  background-image: url(../img/london-background3.jpg);
+#jumbotron2 {
+  background-image: url(../img/bricks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
 body {
-  background-color: #cce6ff;
+  background-color: #ffcccc;
 }
 .mySlides {
   height: 80%;
