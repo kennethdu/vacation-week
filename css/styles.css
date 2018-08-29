@@ -1,3 +1,116 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+#hideCities{
+  display: none;
+=======
+#eifeltower {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right:15px;
+}
+#eifeltower:hover {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right:15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+#boullian {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+}
+
+#boullian:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+}
+#moulin {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+
+}
+
+#moulin:hover{
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+h3 {
+  color: blue;
+  font-family:'Sofia';font-size: 30px;
+
+
+}
+#palace, #louvre, #notredam {
+  width: 300px;
+  height: 200px;
+}
+h2 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7rem;
+
+}
+
+.paragraph {
+  font-family: 'Sofia', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+.jumbotron {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #e6e6ff;
+>>>>>>> julius-pages
+}
+=======
 #intro {
   font-size: 50px;
   color: black;
@@ -138,3 +251,4 @@ h3 {
     content: "";
     clear: both;
   }
+>>>>>>> b2a553ddbb9b210afead4738b9f2a57f797e1312
