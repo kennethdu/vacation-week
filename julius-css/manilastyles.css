@@ -1,10 +1,10 @@
-#stone-hedge{
+#fortsantiago{
   float: right;
   height: 200px;
   width: 300px;
   margin-left:15px;
 }
-#stone-hedge:hover {
+#fortsantiago:hover {
   float: right;
   height: 200px;
   width: 300px;
@@ -13,14 +13,14 @@
   transform: scale(1.3);
 
 }
-#windsor {
+#oceanpark {
   height: 200px;
   width: 300px;
   float: right;
   margin-left: 15px;
 }
 
-#windsor:hover{
+#oceanpark:hover{
   height: 200px;
   width: 300px;
   float: right;
@@ -28,19 +28,19 @@
   border: solid black;
   transform: scale(1.3);
 }
-#zoo {
+#manila-cathedral {
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
 
 }
 
-#zoo:hover{
+#manila-cathedral:hover{
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
   border: solid black;
   transform: scale(1.3);
 
@@ -50,13 +50,13 @@
 
 .topnav {
   overflow: hidden;
-  background-color: white;
-  font-family: 'Kavoon';font-size: 22px;
+  background-color:blue;
+  font-family: 'Yatra One';font-size: 22px;
 }
 
 .topnav a {
   float: left;
-  color: red;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -65,13 +65,14 @@
 }
 
 .topnav a:hover {
-  background-color:red;
-  color: black;
+  background-color: red;
+  color: yellow;
+
 }
 
 .topnav a.active {
-  background-color: red;
-  color: white;
+  background-color:red;
+  color: yellow;
 }
 .topnav input[type=text] {
     float: right;
@@ -82,8 +83,8 @@
     font-size: 17px;
 }
 h3 {
-  color: red;
-  font-family:'Calligraffitti';font-size: 60px;
+  color: yellow;
+  font-family:'Ultra';font-size: 60px;
 
 
 }
@@ -101,42 +102,42 @@ h2 {
 }
 
 #paragraph1{
-  font-family: 'Calligraffitti', cursive, sans-serif;
+  font-family: 'Ultra', cursive, sans-serif;
   color: black;
   text-shadow: 1px 1px black;
 
 }
 #paragraph2{
-  font-family: 'Calligraffitti', cursive, sans-serif;
-  color: black;
-  text-shadow: 1px 1px black;
-}
-#paragraph3{
-  font-family: 'Calligraffitti', cursive, sans-serif;
+  font-family: 'Ultra', cursive, sans-serif;
   color: black;
   text-shadow: 1px 1px white;
 }
+#paragraph3{
+  font-family: 'Ultra', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px black;
+}
 
 #jumbotron1 {
-  background-image: url(../img/summer.jpg);
+  background-image: url(../img/bricks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #jumbotron3 {
-  background-image: url(../img/fall.jpg);
+  background-image: url(../img/manilabay.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #jumbotron2 {
-  background-image: url(../img/bricks.jpg);
+  background-image: url(../img/summerbeach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
 body {
-  background-color: #ffcccc;
+  background-color: #f2f2f2;
 }
 .mySlides {
   height: 80%;
