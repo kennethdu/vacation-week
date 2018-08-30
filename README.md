@@ -2,7 +2,7 @@
 
 #### _Intro Group Project for Epicdous, 8.30.2018_
 
-#### By _**Kenneth Du**_Julius Bade**_Derek Smith**_Mark Mangahas**_
+#### By Kenneth Du, Derek Smith, Julius Bade, Mark Mangahas
 
 ## Description
 
