@@ -42,4 +42,4 @@ _HTML, CSS, javaScript, jQuery, Bootstrap_
 
 ### License
 
-Copyright (c) 2018 **_Kenneth_Du_**_Derek_Smith**_Julius_Bade**_Mark_Mangahas_**
+Copyright (c) 2018 **_Kenneth_Du_**_Derek_Smith_**_Julius_Bade_**_Mark_Mangahas_**
