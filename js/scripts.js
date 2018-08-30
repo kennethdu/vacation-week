@@ -41,9 +41,10 @@ var cities =[
       }
     }
     return isEqual;
-  }
 
+  }
   City.prototype.isEqual = function() {
+
     for (var i = 0; i < cities.length; i++) {
       if (assertObjectsEqual(cities[i], newCity)) {
         return true;

@@ -11,9 +11,25 @@
   overflow: hidden;
 }
 
-body{
+.newyork{
 background-image: radial-gradient(#66d9ff, #ebfafa,  #85e0e0);
 }
+
+    .prague{
+      background-image: radial-gradient(#cccccc, #ebfafa,  #4da6ff);
+     }
+
+     .barcelona{
+       background-image: radial-gradient(#66d9ff, #ebfafa,  #85e0e0);
+     }
+
+     .dubai{
+       background-image: radial-gradient(#4da6ff, #ffff80,  #ffffb3);
+     }
+
+     .florence{
+       background-image: radial-gradient(#66d9ff, #ebfafa,  #85e0e0);
+     }
 
 p{
   text-align: center;
