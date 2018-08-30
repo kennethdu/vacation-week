@@ -1,3 +1,8 @@
+(function blink() {
+  $('.blink_me').fadeOut(3000).fadeIn(5000, blink);
+})();
+
+
 var newCity;
 //BACKEND
 function City (name, continent, season, climate, transportation, activity, link){

@@ -6,3 +6,37 @@
 h1 {
   text-align: center;
 }
+
+span{
+  font-weight: bold;
+}
+
+.blink_me {
+  animation: blinker .75s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.q1{
+  background-image: radial-gradient(#00e673, #ebfafa,  #80ffcc);
+}
+
+.q2{
+  background-image: radial-gradient(#4ddbff, #ebfafa,  #b3ecff);
+}
+
+.q3{
+  background-image: radial-gradient(#00e673, #ebfafa,  #80ffcc);
+}
+
+.q4{
+  background-image: radial-gradient(#4ddbff, #ebfafa,  #b3ecff);
+}
+
+.q5{
+  background-image: radial-gradient(#00e673, #ebfafa,  #80ffcc);
+}
