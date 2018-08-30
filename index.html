@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/indexCSS.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/scripts.js"></script>
+  <title>Vacation Planner</title>
+</head>
+<body>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+  <img class="w3-image" src="https://media.giphy.com/media/aZg5FJVAHdB3G/giphy.gif" width="100%" height="100%">
+  <div class="w3-display-middle w3-margin-top w3-center">
+  <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-white w3-opacity-min">VACATION PLANNER</span>
+  </div>
+</header>
+<hr>
+<br>
+<!--  -->
+<div class="w3-container w3-teal w3-margin-top">
+<div class="numbertext"><b><h1>Checklist before Traveling</h1></b></div>
+</div>
+
+<p><i style="font-size:24px" class="fa">&#xf046;Fill out this survey to help decide your next destination</i></p>
+
+<div class="w3-container w3-brown">
+<form id="surveyQuestions">
+  <h2>What kind of continent are you looking to visit?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="North America">
+        North America
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Asia">
+        Asia
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Europe">
+        Europe
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Surprise Me">
+        Surprise Me!
+      </label>
+    </div>
+</div>
+<!--  -->
+  <div class="w3-container w3-yellow">
+    <h2>What season are you looking to travel?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Any">
+        Spring
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Any">
+        Autumn
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Summer">
+        Summer
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Winter">
+        Winter
+      </label>
+    </div>
+  </div>
+<!--  -->
+  <div class="w3-container w3-blue">
+    <h2>What climate are you looking for?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Cold">
+        Cold
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Mild">
+        Mild
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Hot">
+        Hot
+      </label>
+    </div>
+</div>
+<!--  -->
+<div class="w3-container w3-teal">
+    <h2>What type of transportation do you prefer?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="transportation" value="Public">
+        Public Transportation
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="transportation" value="Rental">
+        Rental Vehicle
+      </label>
+    </div>
+</div>
+<!--  -->
+<div class="w3-container w3-red">
+    <h2>What activities are you interested in?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Outdoors">
+        Outdoors
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Indoors">
+        Indoors
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Getaway">
+        Getaway
+      </label>
+    </div>
+  </div>
+</div>
+    <button class="btn btn-primary" type="submit" id="submitSurvey">Submit your survey, to find out your destination!</button>
+
+</form>
+
+<div id="answer"></div>
+
+
+</body>
+</html>
