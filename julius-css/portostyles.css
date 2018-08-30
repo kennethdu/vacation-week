@@ -1,10 +1,10 @@
-#harbour-bridge{
+#rafting{
   float: right;
   height: 200px;
   width: 300px;
   margin-left:15px;
 }
-#harbour-bridge:hover {
+#rafting:hover {
   float: right;
   height: 200px;
   width: 300px;
@@ -13,38 +13,43 @@
   transform: scale(1.3);
 
 }
-#manly {
+#leca {
   height: 200px;
   width: 300px;
   float: right;
   margin-left: 15px;
 }
 
-#manly:hover{
-  height: 200px;
-  width: 300px;
-  float: right;
-  margin-left: 15px;
-  border: solid black;
-  transform: scale(1.3);
-}
-#operahouse {
-  height: 200px;
-  width: 300px;
-  float: right;
-  margin-left: 15px;
-
-}
-
-#operahouse:hover{
+#leca:hover{
   height: 200px;
   width: 300px;
   float: right;
   margin-left: 15px;
   border: solid black;
   transform: scale(1.3);
+}
+#aveiro {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
 
 }
+
+#aveiro:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.3);
+
+}
+#logo {
+  height: 50px;
+  width: 100px;
+}
+
 
 
 
