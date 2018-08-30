@@ -1,15 +1,15 @@
-# _Vacation Planner_
+# _Vacation Suggester_
 
 #### _Intro Group Project for Epicdous, 8.30.2018_
 
-#### By _**Kenneth Du**_Julius Bade**_Derek Smith**_Mark Mangahas**_
+#### By Kenneth Du, Derek Smith, Julius Bade, Mark Mangahas
 
 ## Description
 
-_.Vacation Suggestor
+Vacation Suggester
 
 Create a website to help users select a vacation destination depending on survey results
-._
+
 
 ## Setup/Installation Requirements
 
@@ -25,7 +25,7 @@ Create a website to help users select a vacation destination depending on survey
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **The program compares the user input with the cities array and returns true on matching city** |Input: North America, Spring, Mild, Rental, Outdoors | Output: "cities[i]='vancouver'" |
-| **The program takes the user input in the name and address field and alerts the user the pizza is en route for delivery** | Input: Name:"Kenneth" Address:"123 Main Street" | Output: "Thank you for ordering Kenneth we will deliver shortly to 123 Main Street!!! Believe in it!!!"|
+| **The program returns a Surprise link if the user input is false** | Input: | Output: <a href ='http://bfy.tw/JcJA' id="hideSurprise">Surprise Me!</a>|
 
 
 ## Known Bugs
@@ -34,12 +34,12 @@ _There are no known bugs._
 
 ## Support and contact details
 
-_Kenneth Du: kennethdu3@gmail.com_Derek Smith: derek.smith.sea@gmail.com _Julius Bade: julbade21@gmail.com _Mark Mangahas: mo.mangahas@yahoo.com
+_Kenneth Du: kennethdu3@gmail.com Derek Smith: derek.smith.sea@gmail.com Julius Bade: julbade21@gmail.com Mark Mangahas: mo.mangahas@yahoo.com
 
 ## Technologies Used
 
-_HTML, CSS, javaScript, jQuery, Bootstrap_
+_HTML, CSS, Javascript, jQuery, Bootstrap_
 
-### License
+### License: MIT.
 
-Copyright (c) 2018 **_Kenneth_Du_**_Derek_Smith_**_Julius_Bade_**_Mark_Mangahas_**
+###Copyright (c) 2018 Kenneth Du, Derek Smith, Julius Bade, Mark Mangahas
