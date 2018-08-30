@@ -1,6 +1,6 @@
 # _Pizza Order Application_
 
-#### _Friday Independent Project for Epicdous, 8.24.2018_
+#### _Intro Group Project Project for Epicdous, 8.30.2018_
 
 #### By _**Kenneth Du**_Julius Bade**_Derek Smith**_Mark Mangahas**_
 

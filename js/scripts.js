@@ -12,7 +12,7 @@ function City (name, continent, season, climate, transportation, activity, link)
 
 var cities =[
   new City("vancouver", "North America", "Any", "Mild", "Rental", "Outdoors", "cities/vancouver.html"),
-  new City("newyork", "North America", "Any", "Mild", "Public", "Outdoors", "cites/newyork.html"),
+  new City("newyork", "North America", "Any", "Mild", "Public", "Outdoors", "cities/newyork.html"),
   new City("jacksonhole", "North America", "Any", "Ranges", "Public", "Outdoors", "cities/jacksonhole.html"),
   new City("breckenridge", "North America", "Any", "Ranges", "Rental", "Outdoors", "cities/breckenridge.html"),
   new City("yosemite", "North America", "Summer", "Ranges", "Rental", "Outdoors", "cities/yosemite.html"),
@@ -55,14 +55,13 @@ var cities =[
   }
 var resultArray = [];
   City.prototype.findEqual = function() {
-
     for (var i = 0; i < cities.length; i++) {
       if (assertObjectsEqual(cities[i], newCity)) {
         resultArray.push(cities[i].name);
         $("#answer").append("<a href ='" + cities[i].link + "'>Your City </a>");
-        break
+        continue
       } else {
-        $("#answer").append("<a href ='http://bfy.tw/JcJA'>Surprise Me!</a>");
+        $("#hideSurprise").show();
       }
     }
   }
