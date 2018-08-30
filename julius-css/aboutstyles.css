@@ -1,0 +1,48 @@
+.col {
+  float: left;
+}
+img {
+width: 200px;
+height: 200px;
+
+}
+h2 {
+  text-align: center;
+}
+.jumbotron {
+  background-color: gray;
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  font-family: 'Kavoon';font-size: 22px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
