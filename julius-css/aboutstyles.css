@@ -1,0 +1,128 @@
+.col {
+  float: left;
+}
+.images {
+width: 20%;
+height: 20%;
+}
+
+#meet {
+  text-align: center;
+  text-align: center;
+  font-family: 'Kavoon';font-size: 50px;
+  text-shadow: 1px 1px black;
+  padding: 100px;
+  text-align: center;
+  background: black;
+  color: white;
+  animation:blinkingText 2.0s infinite;
+
+}
+@keyframes blinkingText{
+  0%{     color: #ffff80;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: white;    }
+}
+
+
+.jumbotron {
+  background-color: gray;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-image: url(../img/images1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px Black;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  font-family: 'Kavoon';font-size: 22px;
+
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.paragraph, .title {
+  font-family: 'Calligraffitti'; font-size: 100%;
+  text-align: left;
+  text-overflow: clip;
+}
+#logo {
+  height: 50px;
+  width: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.container img {
+  vertical-align: middle;
+height: 100%;
+width: 100%;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 97.5%;
+    padding: 10px;
+    padding-bottom: 50px;
+    font-size: 18px;
+
+
+}
+#container {
+  background-color: black;
+}
+h2, p {
+  font-family: 'Calligraffitti';
+  font-size: 25px;
+  font-weight: bold;
+}
