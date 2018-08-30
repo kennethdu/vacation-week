@@ -59,14 +59,11 @@ var resultArray = [];
     for (var i = 0; i < cities.length; i++) {
       if (assertObjectsEqual(cities[i], newCity)) {
         resultArray.push(cities[i].name);
-        // console.log(cities[i])
         $("#answer").append("<a href ='" + cities[i].link + "'>Your City </a>");
-        // window.location = cities[i].link;
       } else {
         $("#answer").append("<a href ='http://bfy.tw/JcJA'>Surprise Me!</a>");
       }
     }
-    // window.location = "http://bfy.tw/JcJA";
   }
 
 
