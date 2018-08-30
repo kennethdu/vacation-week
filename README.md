@@ -1,6 +1,6 @@
-# _Pizza Order Application_
+# _Vacation Planner_
 
-#### _Intro Group Project Project for Epicdous, 8.30.2018_
+#### _Intro Group Project for Epicdous, 8.30.2018_
 
 #### By _**Kenneth Du**_Julius Bade**_Derek Smith**_Mark Mangahas**_
 
@@ -34,7 +34,7 @@ _There are no known bugs._
 
 ## Support and contact details
 
-_Kenneth Du: kennethdu3@gmail.com_
+_Kenneth Du: kennethdu3@gmail.com_Derek Smith: derek.smith.sea@gmail.com _Julius Bade: julbade21@gmail.com _Mark Mangahas: mo.mangahas@yahoo.com
 
 ## Technologies Used
 
@@ -42,4 +42,4 @@ _HTML, CSS, javaScript, jQuery, Bootstrap_
 
 ### License
 
-Copyright (c) 2018 **_Kenneth_Du_**
+Copyright (c) 2018 **_Kenneth_Du_**_Derek_Smith**_Julius_Bade**_Mark_Mangahas_**
