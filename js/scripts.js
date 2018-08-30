@@ -60,6 +60,7 @@ var resultArray = [];
       if (assertObjectsEqual(cities[i], newCity)) {
         resultArray.push(cities[i].name);
         $("#answer").append("<a href ='" + cities[i].link + "'>Your City </a>");
+        break
       } else {
         $("#answer").append("<a href ='http://bfy.tw/JcJA'>Surprise Me!</a>");
       }
